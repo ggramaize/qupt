@@ -93,7 +93,7 @@ int main( int argc, char **argv)
 			{
 				/* wrap line before printing */
 				fprintf( stdout, "%s", "=\r\n");
-				fprintf( stdout, "=%X", (unsigned char)c);
+				fprintf( stdout, "=%02X", (unsigned char)c);
 				linepos = 3; /* because the escape sequence writes 3 characters*/ 
 			}
 		}
